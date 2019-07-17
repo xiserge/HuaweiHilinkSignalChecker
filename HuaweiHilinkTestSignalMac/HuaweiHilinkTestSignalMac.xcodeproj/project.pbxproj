@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D294C9D006FD2636F1994B4 /* libPods-HuaweiHilinkTestSignalMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B97F2C11B9A089F0203AE3 /* libPods-HuaweiHilinkTestSignalMac.a */; };
+		A563616D22DFD300009975FC /* GetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563616C22DFD300009975FC /* GetInfo.swift */; };
+		A5A1E9B022DFB96E00ED8F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A1E9AF22DFB96E00ED8F98 /* AppDelegate.swift */; };
+		A5A1E9B222DFB96E00ED8F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A1E9B122DFB96E00ED8F98 /* ViewController.swift */; };
+		A5A1E9B422DFB96F00ED8F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A1E9B322DFB96F00ED8F98 /* Assets.xcassets */; };
+		A5A1E9B722DFB96F00ED8F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A1E9B522DFB96F00ED8F98 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6168914B6A3B64CDB4437E28 /* Pods-HuaweiHilinkTestSignalMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaweiHilinkTestSignalMac.release.xcconfig"; path = "Target Support Files/Pods-HuaweiHilinkTestSignalMac/Pods-HuaweiHilinkTestSignalMac.release.xcconfig"; sourceTree = "<group>"; };
+		93B97F2C11B9A089F0203AE3 /* libPods-HuaweiHilinkTestSignalMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuaweiHilinkTestSignalMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A563616C22DFD300009975FC /* GetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GetInfo.swift; path = ../Shared/GetInfo.swift; sourceTree = "<group>"; };
+		A5A1E9AC22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaweiHilinkTestSignalMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A1E9AF22DFB96E00ED8F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5A1E9B122DFB96E00ED8F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5A1E9B322DFB96F00ED8F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A1E9B622DFB96F00ED8F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A1E9B822DFB96F00ED8F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A1E9B922DFB96F00ED8F98 /* HuaweiHilinkTestSignalMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HuaweiHilinkTestSignalMac.entitlements; sourceTree = "<group>"; };
+		D44D0D4C6BDEEF1D9E44AE95 /* Pods-HuaweiHilinkTestSignalMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaweiHilinkTestSignalMac.debug.xcconfig"; path = "Target Support Files/Pods-HuaweiHilinkTestSignalMac/Pods-HuaweiHilinkTestSignalMac.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A1E9A922DFB96E00ED8F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D294C9D006FD2636F1994B4 /* libPods-HuaweiHilinkTestSignalMac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D93F7EA76CEE21FD6D48B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D44D0D4C6BDEEF1D9E44AE95 /* Pods-HuaweiHilinkTestSignalMac.debug.xcconfig */,
+				6168914B6A3B64CDB4437E28 /* Pods-HuaweiHilinkTestSignalMac.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		26BC62C4E2E336A194484F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B97F2C11B9A089F0203AE3 /* libPods-HuaweiHilinkTestSignalMac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A1E9A322DFB96E00ED8F98 = {
+			isa = PBXGroup;
+			children = (
+				A5E337D822DFC0A700069AFA /* Shared */,
+				A5A1E9AE22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac */,
+				A5A1E9AD22DFB96E00ED8F98 /* Products */,
+				0D93F7EA76CEE21FD6D48B03 /* Pods */,
+				26BC62C4E2E336A194484F9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A1E9AD22DFB96E00ED8F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A1E9AC22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A1E9AE22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac */ = {
+			isa = PBXGroup;
+			children = (
+				A5A1E9AF22DFB96E00ED8F98 /* AppDelegate.swift */,
+				A5A1E9B122DFB96E00ED8F98 /* ViewController.swift */,
+				A5A1E9B322DFB96F00ED8F98 /* Assets.xcassets */,
+				A5A1E9B522DFB96F00ED8F98 /* Main.storyboard */,
+				A5A1E9B822DFB96F00ED8F98 /* Info.plist */,
+				A5A1E9B922DFB96F00ED8F98 /* HuaweiHilinkTestSignalMac.entitlements */,
+			);
+			path = HuaweiHilinkTestSignalMac;
+			sourceTree = "<group>";
+		};
+		A5E337D822DFC0A700069AFA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A563616C22DFD300009975FC /* GetInfo.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A1E9AB22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A1E9BC22DFB96F00ED8F98 /* Build configuration list for PBXNativeTarget "HuaweiHilinkTestSignalMac" */;
+			buildPhases = (
+				BC6667312B56891631354A3F /* [CP] Check Pods Manifest.lock */,
+				A5A1E9A822DFB96E00ED8F98 /* Sources */,
+				A5A1E9A922DFB96E00ED8F98 /* Frameworks */,
+				A5A1E9AA22DFB96E00ED8F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaweiHilinkTestSignalMac;
+			productName = HuaweiHilinkTestSignalMac;
+			productReference = A5A1E9AC22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A1E9A422DFB96E00ED8F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = xserge;
+				TargetAttributes = {
+					A5A1E9AB22DFB96E00ED8F98 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A5A1E9A722DFB96E00ED8F98 /* Build configuration list for PBXProject "HuaweiHilinkTestSignalMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A1E9A322DFB96E00ED8F98;
+			productRefGroup = A5A1E9AD22DFB96E00ED8F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A1E9AB22DFB96E00ED8F98 /* HuaweiHilinkTestSignalMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A1E9AA22DFB96E00ED8F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A1E9B422DFB96F00ED8F98 /* Assets.xcassets in Resources */,
+				A5A1E9B722DFB96F00ED8F98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC6667312B56891631354A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuaweiHilinkTestSignalMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A1E9A822DFB96E00ED8F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A563616D22DFD300009975FC /* GetInfo.swift in Sources */,
+				A5A1E9B222DFB96E00ED8F98 /* ViewController.swift in Sources */,
+				A5A1E9B022DFB96E00ED8F98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5A1E9B522DFB96F00ED8F98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A1E9B622DFB96F00ED8F98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A1E9BA22DFB96F00ED8F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A1E9BB22DFB96F00ED8F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A5A1E9BD22DFB96F00ED8F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44D0D4C6BDEEF1D9E44AE95 /* Pods-HuaweiHilinkTestSignalMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HuaweiHilinkTestSignalMac/HuaweiHilinkTestSignalMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V2E3YRDVD6;
+				INFOPLIST_FILE = HuaweiHilinkTestSignalMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xserge.HuaweiHilinkTestSignalMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A5A1E9BE22DFB96F00ED8F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6168914B6A3B64CDB4437E28 /* Pods-HuaweiHilinkTestSignalMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HuaweiHilinkTestSignalMac/HuaweiHilinkTestSignalMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V2E3YRDVD6;
+				INFOPLIST_FILE = HuaweiHilinkTestSignalMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xserge.HuaweiHilinkTestSignalMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A1E9A722DFB96E00ED8F98 /* Build configuration list for PBXProject "HuaweiHilinkTestSignalMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A1E9BA22DFB96F00ED8F98 /* Debug */,
+				A5A1E9BB22DFB96F00ED8F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A1E9BC22DFB96F00ED8F98 /* Build configuration list for PBXNativeTarget "HuaweiHilinkTestSignalMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A1E9BD22DFB96F00ED8F98 /* Debug */,
+				A5A1E9BE22DFB96F00ED8F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A1E9A422DFB96E00ED8F98 /* Project object */;
+}
